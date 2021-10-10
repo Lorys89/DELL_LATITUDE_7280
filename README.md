@@ -83,6 +83,11 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 - Usb port mapping performed
 - SSDT-Hack Essential patch
 
+### Post Install:
+
+Open terminal and run install.sh from TOOLS EFI MOD/ComboJack_Installer. After reboot insert jack and appears this image
+![jack](./Screenshot/Combojackfix.png)
+
 See [ioreg](./MacBook%20Pro%2014%2C1.ioreg) for more clarification
 
 
