@@ -16,7 +16,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
-| CPU              | Intel i5 7300u (2C-4T 3MB KBL)     |
+| CPU              | Intel i5 7300U (2C-4T 3MB KBL)     |
 | iGPU             | Intel® HD 620 Graphics.            |
 | Lan              | Intel I29-LM                       |
 | Audio            | Realtek ALC256                     |
@@ -76,7 +76,6 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 ![metal](./Screenshot/metal.png)
 ![videoproc](./Screenshot/videoproc.png)
 ![Bench-Ram-Nvme](./Screenshot/Bench-Ram-Nvme.png)
-![Intel-PWR-Gadget](./Screenshot/intel-pwr-gadget.png)
 
 
 ### Special Config:
@@ -108,6 +107,26 @@ See [ioreg](./MacBook%20Pro%2014%2C1.ioreg) for more clarification
 * Wake on Dell USB-C Dock
 * Enable UEFI Network Stack
 * cfg lock and DVMT: DO AT YOUR OWN RISK!!! It may brick your laptop.
+
+## Restart and at the opencore GUI, choose the modGRUBShell.efi
+
+![CFG-LOCK](./Screenshot/CFG-LOCK.png)
+
+For set CFG LOCK Disabled
+
+setup_var 0x4ED 0x0
+
+![DMT-PRE](./Screenshot/DVMT-PRE.png)
+
+For set DVMT PRE Allocated to 64 MB
+
+setup_var 0x795 0x2
+
+![DMT-PRE](./Screenshot/DVMT-TOT.png)
+
+For set DVMT Total GFX Mem to MAX
+
+setup_var 0x796 0x3
 
 
 ### Working all NATIVE-SHORTCUTS-APPLE:
