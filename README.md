@@ -121,7 +121,7 @@ For set CFG LOCK Disabled
 
 setup_var 0x4ED 0x0
 
-(After this mod remove quirks AppleXcpmCfgLock)
+(After this mod set false the quirks AppleXcpmCfgLock)
 
 ![DMT-PRE](./Screenshot/DVMT-PRE.png)
 
