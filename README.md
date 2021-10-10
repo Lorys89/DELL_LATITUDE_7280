@@ -138,4 +138,5 @@ setup_var 0x796 0x3
 - [Apple](https://apple.com) for macOS.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
+- [Juico](https://github.com/juico) for fix Alps i2c touchpad.
 - [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Support group for installation and post installation.
