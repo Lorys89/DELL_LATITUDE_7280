@@ -1,6 +1,6 @@
-# Dell Vostro 5401 (Ice Lake) Hackintosh
+# Dell Latitude 7280 (Kaby Lake) Hackintosh
 [![](https://img.shields.io/badge/Gitter%20Ice%20Lake-Chat-informational?style=flat&logo=gitter&logoColor=white&color=ed1965)](https://gitter.im/ICE-LAKE-HACKINTOSH-DEVELOPMENT/community)
-[![](https://img.shields.io/badge/EFI-Release-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Lorys89/DELL_VOSTRO_5401-ICE-LAKE/releases)
+[![](https://img.shields.io/badge/EFI-Release-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Lorys89/DELL_LATITUDE_7280/releases)
 [![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
 [![](https://img.shields.io/badge/Facebook-HackintoshLifeIT-informational?style=flat&logo=facebook&logoColor=white&color=3a4dc9)](https://www.facebook.com/hackintoshlife/)
 [![](https://img.shields.io/badge/Instagram-HackintoshLifeIT-informational?style=flat&logo=instagram&logoColor=white&color=8a178a)](https://www.instagram.com/hackintoshlife.it_official/)
@@ -8,9 +8,7 @@
 
 
 
-EFI for Dell Vostro 5401 with OpenCore bootloader
-
-(Compatible for Dell Inspiron 5401/5408/5501/5508 e Vostro 5401/5501, (i3 G1 - i5 G1 - i7 G7) these laptops use the same bios file)
+EFI for Dell Latitude 7280 with OpenCore bootloader
 
 ![descrizione](./Screenshot/pc.jpg)
 
@@ -18,22 +16,19 @@ EFI for Dell Vostro 5401 with OpenCore bootloader
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
-| CPU              | Intel i7 1065G7 (4C-8T 8MB ICL)    |
-| iGPU             | Intel® Iris Plus Graphics          |
-| Lan              | Realtek 8168                       |
-| Audio            | Realtek ALC236                     |
-| Ram              | 32 GB DDR4 3200 Mhz                |
-| Wifi + Bluetooth | BCM943602BAED (DW1830)             |
-| NVMe             | HYNIX BC511 512 GB (WINDOWS)       |
-| NVME             | SAMSUNG 970 EVO PLUS 500 GB (MACOS)|
-| SmBios           | MacBookPro 16,2                    |
-| BootLoader       | OpenCore 0.7.1                     |
-| macOS            | Monterey 12.0 (BETA 2)             |
-| macOS            | Big Sur 11.5                       |
+| CPU              | Intel i5 7300u (2C-4T 3MB KBL)     |
+| iGPU             | Intel® HD 620 Graphics.            |
+| Lan              | Intel 129-LM                       |
+| Audio            | Realtek ALC256                     |
+| Ram              | 8 GB DDR4 2133 Mhz                 |
+| Wifi + Bluetooth | BCM94352Z (DW1560)                 |
+| NVMe             | TOSHIBA KBG4 256 GB (MACOS)        |
+| SmBios           | MacBookPro 14,1                    |
+| BootLoader       | OpenCore 0.7.4                     |
+| macOS            | Big Sur 11.6                       |
 
 
-![infomonterey](./Screenshot/infomonterey.png)
-![infobigsur](./Screenshot/infomac.png)
+![infomac](./Screenshot/infomac.png)
 
 ### What works and What doesn't or WIP:
 
