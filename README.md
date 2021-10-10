@@ -18,7 +18,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 | ---------------- | ---------------------------------- |
 | CPU              | Intel i5 7300u (2C-4T 3MB KBL)     |
 | iGPU             | Intel® HD 620 Graphics.            |
-| Lan              | Intel 129-LM                       |
+| Lan              | Intel I29-LM                       |
 | Audio            | Realtek ALC256                     |
 | Ram              | 8 GB DDR4 2133 Mhz                 |
 | Wifi + Bluetooth | BCM94352Z (DW1560)                 |
@@ -32,35 +32,34 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 
 ### What works and What doesn't or WIP:
 
-- [x] Intel Iris Plus iGPU eDP with Backlight Output
-- [ ] Intel Iris Plus iGPU HDMI Output (Not supported at the moment)
-- [ ] Intel Iris Plus iGPU Type-C to HDMI Output (Not supported at the moment)
-- [x] Intel Iris Plus iGPU - H264 & HEVC
-- [x] ALC236 Internal Speakers
-- [x] ALC236 Internal microphone
-- [x] ALC236 Combojack headphones
-- [ ] ALC236 Combojack microphone
-- [ ] ALC236 HDMI Audio Output (Not supported at the moment)
-- [ ] ALC236 TYPE-C to HDMI Audio Output (Not supported at the moment)
-- [x] All USB-A 3.1 Ports (TYPE-C 3.2 Included)
+- [x] Intel HD 620 iGPU eDP with Backlight Output
+- [x] Intel HD 620 iGPU HDMI Output 
+- [x] Intel HD 620 iGPU Type-C to HDMI Output
+- [x] Intel HD 620 iGPU - H264 & HEVC
+- [x] ALC256 Internal Speakers
+- [x] ALC256 Internal microphone
+- [x] ALC256 Combojack headphones
+- [x] ALC256 Combojack microphone
+- [x] ALC256 HDMI Audio Output
+- [x] ALC256 TYPE-C to HDMI Audio Output
+- [x] All USB-A 3.1 Ports (TYPE-C 3.1 Included)
 - [x] SpeedStep / Sleep / Wake
 - [x] HID Key PWRB & SLPB 
-- [x] I2C Touchpad with gesture
+- [x] I2C ALPS Touchpad with gesture
 - [x] Keyboard (PS2-Internal) with backlight
-- [x] F6 & F7 Brightness Key
-- [x] F10 Print Screen Key
+- [x] Brightness Key
+- [x] F11 Print Screen Key
 - [x] F1 & F2 & F3 Sound Key
-- [x] Wi-Fi and Bluetooth BCM943602BAED (DW1830) Module
-- [x] Realtek RTL8168 LAN
+- [x] Wi-Fi and Bluetooth BCM94352Z (DW1560) Module
+- [x] Lan Intel I29-LM
 - [x] SSD NVME Slot-1 PciE Gen3x4
-- [x] SSD NVME Slot-2 PciE Gen3x4 
-- [x] Micro SD Cardreader (USB-Internal)
+- [x] Micro SD Cardreader
 - [x] WebCam (USB-Internal)
 - [x] All Sensors CPU, IGPU, BATTERY, NVME, FAN
 - [x] ACPI Battery
 - [x] NVRAM (Native)
 - [x] Recovery (macOS) boot from OpenCore
-- [x] Windows 10 boot from OpenCore
+- [x] Windows 11 boot from OpenCore
 
 ## Peripherals & TouchPad Setting & Benchmarks
 
@@ -84,9 +83,8 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 
 - Usb port mapping performed
 - SSDT-Hack Essential patch
-- Applied cosmetics PCI Dev
 
-See [ioreg](./ioreg%20MacBook%20Pro%2016%2C2.ioreg) for more clarification
+See [ioreg](./MacBook%20Pro%2014%2C1.ioreg) for more clarification
 
 
 ### MacOS bootable USB creation:
