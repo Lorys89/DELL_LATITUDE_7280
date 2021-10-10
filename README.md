@@ -121,6 +121,8 @@ For set CFG LOCK Disabled
 
 setup_var 0x4ED 0x0
 
+(After this mod remove quirks AppleXcpmCfgLock)
+
 ![DMT-PRE](./Screenshot/DVMT-PRE.png)
 
 For set DVMT PRE Allocated to 64 MB
@@ -130,6 +132,8 @@ setup_var 0x795 0x2
 ![DMT-PRE](./Screenshot/DVMT-TOT.png)
 
 For set DVMT Total GFX Mem to MAX
+
+(After the DVMT Mod remove from igpu patch the string framebuffer-fbmem and framebuffer-stolenmem)
 
 setup_var 0x796 0x3
 
