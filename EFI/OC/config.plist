@@ -804,7 +804,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<true/>
+			<false/>
 			<key>LauncherOption</key>
 			<string>Full</string>
 			<key>LauncherPath</key>
@@ -818,7 +818,7 @@
 			<key>PickerVariant</key>
 			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
-			<true/>
+			<false/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
