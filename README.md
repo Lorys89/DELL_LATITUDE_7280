@@ -17,8 +17,8 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
 | CPU              | Intel i5 7300U (2C-4T 3MB KBL)     |
-| iGPU             | Intel® HD 620 Graphics.            |
-| Lan              | Intel I29-LM                       |
+| iGPU             | Intel® HD 620 Graphics             |
+| Lan              | Intel I219-LM                      |
 | Audio            | Realtek ALC256                     |
 | Ram              | 8 GB DDR4 2133 Mhz                 |
 | Wifi + Bluetooth | BCM94352Z (DW1560)                 |
@@ -51,7 +51,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 - [x] F11 Print Screen Key
 - [x] F1 & F2 & F3 Sound Key
 - [x] Wi-Fi and Bluetooth BCM94352Z (DW1560) Module
-- [x] Lan Intel I29-LM
+- [x] Lan Intel I219-LM
 - [x] SSD NVME Slot-1 PciE Gen3x4
 - [x] Micro SD Cardreader
 - [x] WebCam (USB-Internal)
