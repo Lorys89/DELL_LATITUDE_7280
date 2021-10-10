@@ -133,9 +133,10 @@ setup_var 0x795 0x2
 
 For set DVMT Total GFX Mem to MAX
 
+setup_var 0x796 0x3
+
 (After the DVMT Mod remove from igpu patch the string framebuffer-fbmem and framebuffer-stolenmem)
 
-setup_var 0x796 0x3
 
 
 ### Working all NATIVE-SHORTCUTS-APPLE:
