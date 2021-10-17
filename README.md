@@ -80,7 +80,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 
 ### Special Config:
 
-- Usb port mapping performed
+- Usb port mapping performed(if you have a touchscreen model you have to redo mapping by inserting port HS08)
 - SSDT-Hack Essential patch
 
 ### Post Install:
@@ -111,7 +111,7 @@ See [ioreg](./MacBook%20Pro%2014%2C1.ioreg) for more clarification
 * Wake on AC
 * Wake on Dell USB-C Dock
 * Enable UEFI Network Stack
-* cfg lock and DVMT: DO AT YOUR OWN RISK!!! It may brick your laptop.
+* CFG lock and DVMT: DO AT YOUR OWN RISK!!! It may brick your laptop.
 
 ## Restart and at the opencore GUI, choose the modGRUBShell.efi
 
