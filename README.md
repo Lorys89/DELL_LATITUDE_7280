@@ -80,7 +80,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 
 ### Special Config:
 
-- Usb port mapping performed(if you have a touchscreen model you have to redo mapping by inserting port HS08)
+- Usb port mapping performed (with port HS08 for touchscreen model)
 - SSDT-Hack Essential patch
 
 ### Post Install:
