@@ -22,10 +22,10 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 | Audio            | Realtek ALC256                     |
 | Ram              | 8 GB DDR4 2133 Mhz                 |
 | Wifi + Bluetooth | BCM94352Z (DW1560)                 |
-| NVMe             | TOSHIBA KBG4 256 GB (MACOS)        |
+| NVMe             | TOSHIBA KBG4 256 GB (MACOS+WIN 11) |
 | SmBios           | MacBookPro 14,1                    |
-| BootLoader       | OpenCore 0.7.4                     |
-| macOS            | Big Sur 11.6                       |
+| BootLoader       | OpenCore 0.7.5                     |
+| macOS            | Monterey 12.1 Beta                 |
 
 
 ![infomac](./Screenshot/infomac.png)
