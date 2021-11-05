@@ -52,7 +52,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 - [x] F1 & F2 & F3 Sound Key
 - [x] Wi-Fi and Bluetooth BCM94352Z (DW1560) Module
 - [x] Lan Intel I219-LM
-- [x] SSD NVME Slot-1 PciE Gen3x4
+- [x] SSD NVME Slot-1 PciE
 - [x] Micro SD Cardreader
 - [x] WebCam (USB-Internal)
 - [x] All Sensors CPU, IGPU, BATTERY, NVME, FAN
@@ -75,7 +75,6 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 ![openCL](./Screenshot/openCL.png)
 ![metal](./Screenshot/metal.png)
 ![videoproc](./Screenshot/videoproc.png)
-![Bench-Ram-Nvme](./Screenshot/Bench-Ram-Nvme.png)
 
 
 ### Special Config:
