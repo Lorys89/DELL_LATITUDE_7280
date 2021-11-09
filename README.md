@@ -25,7 +25,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 | NVMe             | SAMSUNG 980 500 GB (MACOS+WIN 11)  |
 | SmBios           | MacBookPro 14,1                    |
 | BootLoader       | OpenCore 0.7.5                     |
-| macOS            | Monterey 12.1 Beta                 |
+| macOS            | Monterey 12.1 Beta 2               |
 
 
 ![infomac](./Screenshot/infomac.png)
