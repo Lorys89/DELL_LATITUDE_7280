@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20G165</string>
+	<string>20G224</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -50,7 +50,7 @@
 			<string>VoodooI2CSensorHubEnabler</string>
 			<key>IONameMatch</key>
 			<array>
-				<string>INT3442</string>
+				<string>INT33D0</string>
 			</array>
 			<key>IOProviderClass</key>
 			<string>IOACPIPlatformDevice</string>
@@ -250,6 +250,28 @@
 				<key>Transport</key>
 				<string>I2C</string>
 			</dict>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+		</dict>
+		<key>VoodooI2CHIDDevice Keyboard HID Event Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.alexandred.VoodooI2CHID</string>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>6</integer>
+					<key>DeviceUsagePage</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>IOClass</key>
+			<string>VoodooI2CKeyboardHIDEventDriver</string>
+			<key>IOMatchCategory</key>
+			<string>VoodooI2CKeyboardHIDEventDriver</string>
+			<key>IOProbeScore</key>
+			<integer>200</integer>
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
 		</dict>
