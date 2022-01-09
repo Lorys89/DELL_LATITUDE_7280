@@ -50,7 +50,7 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 - [x] Brightness Key
 - [x] F11 Print Screen Key
 - [x] F1 & F2 & F3 Sound Key
-- [x] Wi-Fi and Bluetooth BCM94352Z (DW1560) Module
+- [x] Wi-Fi and Bluetooth BCM94352Z (DELL DW1560) Module
 - [x] Lan Intel I219-LM
 - [x] SSD NVME Slot-1 PciE
 - [x] Micro SD Cardreader
@@ -105,7 +105,6 @@ See [ioreg](./MacBook%20Pro%2014%2C1.ioreg) for more clarification
 ### Disable : 
 * Secure Boot
 * Absolute
-* TPM2.0 Security On
 * Intel SGX
 * Wake on AC
 * Wake on Dell USB-C Dock
