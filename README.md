@@ -1,6 +1,5 @@
 # Dell Latitude 7280 (Kaby Lake) Hackintosh
 [![](https://img.shields.io/badge/EFI-Release-informational?style=flat&logo=apple&logoColor=white&color=9debeb)](https://github.com/Lorys89/DELL_LATITUDE_7280/releases)
-[![](https://img.shields.io/badge/Telegram-HackintoshLifeIT-informational?style=flat&logo=telegram&logoColor=white&color=5fb659)](https://t.me/HackintoshLife_it)
 
 
 
@@ -20,8 +19,8 @@ EFI for Dell Latitude 7280 with OpenCore bootloader
 | Wifi + Bluetooth | BCM94352Z (DW1560)                 |
 | NVMe             | SAMSUNG 980 500 GB (MACOS+WIN 11)  |
 | SmBios           | MacBookPro 14,1                    |
-| BootLoader       | OpenCore 0.7.8                     |
-| macOS            | Monterey 12.3 (BETA 4)             |
+| BootLoader       | OpenCore 0.8.3                     |
+| macOS            | Ventura 13 beta 6                  |
 
 
 ![infomac](./Screenshot/infomac.png)
@@ -105,7 +104,7 @@ See [ioreg](./MacBook%20Pro%2014%2C1.ioreg) for more clarification
 * Wake on AC
 * Wake on Dell USB-C Dock
 * Enable UEFI Network Stack
-* CFG lock and DVMT: DO AT YOUR OWN RISK!!! It may brick your laptop.
+* CFG lock and DVMT: is necessary if you use this EFI.
 
 ## Restart and at the opencore GUI, choose the modGRUBShell.efi
 
@@ -141,6 +140,4 @@ setup_var 0x796 0x3
 
 - [Apple](https://apple.com) for macOS.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
-- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
 - [Juico](https://github.com/juico) for fix Alps i2c touchpad.
-- [Hackintoshlifeit](https://github.com/Hackintoshlifeit) Support group for installation and post installation.
